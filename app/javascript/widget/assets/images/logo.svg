@@ -1,12 +1,83 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="512px" height="512px" viewBox="0 0 512 512" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
-    <title>woot-log</title>
-    <desc>Created with Sketch.</desc>
-    <g id="Logo" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="woot-log" fill-rule="nonzero">
-            <circle id="Oval" fill="#47A7F6" cx="256" cy="256" r="256"></circle>
-            <path d="M362.807947,368.807947 L244.122956,368.807947 C178.699407,368.807947 125.456954,315.561812 125.456954,250.12177 C125.456954,184.703089 178.699407,131.456954 244.124143,131.456954 C309.565494,131.456954 362.807947,184.703089 362.807947,250.12177 L362.807947,368.807947 Z" id="Fill-1" stroke="#FFFFFF" stroke-width="6" fill="#FFFFFF"></path>
-        </g>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="512px"
+   height="512px"
+   viewBox="0 0 512 512"
+   version="1.1"
+   id="svg10"
+   sodipodi:docname="logo.svg"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)">
+  <metadata
+     id="metadata16">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>woot-log</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs14" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     id="namedview12"
+     showgrid="false"
+     inkscape:zoom="0.65186406"
+     inkscape:cx="278.54823"
+     inkscape:cy="98.826688"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="woot-log" />
+  <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
+  <title
+     id="title2">woot-log</title>
+  <desc
+     id="desc4">Created with Sketch.</desc>
+  <g
+     id="Logo"
+     stroke="none"
+     stroke-width="1"
+     fill="none"
+     fill-rule="evenodd">
+    <g
+       id="woot-log"
+       fill-rule="nonzero">
+      <g
+         id="g843"
+         transform="translate(736.4455,194.03454)">
+        <path
+           sodipodi:nodetypes="sssssscsss"
+           inkscape:connector-curvature="0"
+           id="rect823-0"
+           d="m -268.04455,-72.635352 h -334.10171 c -21.63417,0 -39.05084,17.41668 -39.05084,39.050846 V 144.31379 c 0,21.63417 17.41667,39.05084 39.05084,39.05084 h 306.10171 c 12.2523,0 65.89434,75.67277 65.89434,75.67277 V 144.31379 -33.584506 c 0,-21.634166 -16.26018,-39.050846 -37.89434,-39.050846 z"
+           style="opacity:1;fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:0.63163352;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke" />
+        <path
+           sodipodi:nodetypes="sssssscsss"
+           inkscape:connector-curvature="0"
+           id="rect823"
+           d="m -692.84644,-135.10649 h 334.10171 c 21.63417,0 39.05084,17.41668 39.05084,39.050844 v 177.89831 c 0,21.634166 -17.41667,39.050836 -39.05084,39.050836 h -306.10171 c -12.2523,0 -65.89434,75.67277 -65.89434,75.67277 V 81.842664 -96.055646 c 0,-21.634164 16.26018,-39.050844 37.89434,-39.050844 z"
+           style="opacity:1;fill:#00ff66;fill-opacity:1;stroke:none;stroke-width:0.63163352;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke" />
+      </g>
     </g>
+  </g>
 </svg>
