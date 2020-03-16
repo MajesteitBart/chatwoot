@@ -27,7 +27,7 @@ export const SDK_CSS = ` .woot-widget-holder {
   -moz-border-radius: 100px !important;
   -webkit-border-radius: 100px !important;
   border-radius: 100px !important;
-  background: #1f93ff;
+  background: #00ff66;
   position: fixed;
   cursor: pointer;
   right: 20px;
@@ -37,7 +37,7 @@ export const SDK_CSS = ` .woot-widget-holder {
 }
 
 .woot-widget-bubble:hover {
-  background: #1f93ff;
+  background: #00ff66;
   -moz-box-shadow: 0 8px 32px rgba(0, 0, 0, .4) !important;
   -o-box-shadow: 0 8px 32px rgba(0, 0, 0, .4) !important;
   -webkit-box-shadow: 0 8px 32px rgba(0, 0, 0, .4) !important;
