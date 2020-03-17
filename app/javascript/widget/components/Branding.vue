@@ -1,12 +1,12 @@
 <template>
   <a
     class="branding"
-    href="https://www.chatwoot.com?utm_source=widget_branding"
+    href="https://www.custonext.nl?utm_source=widget_branding"
     rel="noreferrer noopener nofollow"
     target="_blank"
   >
     <img src="~widget/assets/images/logo.svg" />
-    <span>Powered by Chatwoot</span>
+    <span>Convert</span>
   </a>
 </template>
 

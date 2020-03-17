@@ -28,7 +28,7 @@
 
 code {
   border: 0;
-  font-family: 'Monaco', Verdana;
+  font-family: unset;
   font-size: $font-size-mini;
 
   &.hljs {
