@@ -3,7 +3,7 @@
     <h2 class="title">
       {{ title }}
     </h2>
-    <span class="close-button" @click="closeWindow"></span>
+    <span class="close" @click="closeWindow"></span>
   </header>
 </template>
 
@@ -54,8 +54,27 @@ export default {
     color: $color-heading;
   }
 
-  .close-button {
-    display: none;
+  .close {
+    cursor: pointer;
+    position: relative;
+    width: $space-two;
+
+    &:before,
+    &:after {
+      position: absolute;
+      left: $space-small;
+      top: $space-smaller;
+      content: ' ';
+      height: $space-normal;
+      width: 2px;
+      background-color: $color-heading;
+    }
+    &:before {
+      transform: rotate(45deg);
+    }
+    &:after {
+      transform: rotate(-45deg);
+    }
   }
 }
 </style>

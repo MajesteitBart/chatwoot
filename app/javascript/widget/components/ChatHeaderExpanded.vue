@@ -1,22 +1,22 @@
 <template>
   <header class="header-expanded">
-    <!-- <img
+    <div>
+      <!-- <img
         class="logo"
-        src=""
+        src="http://www.hennigcompany.com/wp-content/uploads/2014/06/starbucks-logo.png"
       /> -->
-    <span class="close close-button" @click="closeWindow"></span>
-    <h2 class="title">
-      {{ introHeading }}
-    </h2>
-    <p class="body">
-      {{ introBody }}
-    </p>
+      <h2 class="title">
+        {{ introHeading }}
+      </h2>
+      <p class="body">
+        {{ introBody }}
+      </p>
+    </div>
   </header>
 </template>
 
 <script>
 import { mapGetters } from 'vuex';
-import { IFrameHelper } from 'widget/helpers/utils';
 
 export default {
   name: 'ChatHeaderExpanded',
@@ -36,15 +36,6 @@ export default {
         'We make it simple to connect with us. Ask us anything, or share your feedback.',
     },
   },
-  methods: {
-    closeWindow() {
-      if (IFrameHelper.isIFrame()) {
-        IFrameHelper.sendMessage({
-          event: 'toggleBubble',
-        });
-      }
-    },
-  },
 };
 </script>
 
@@ -56,19 +47,12 @@ export default {
   padding: $space-larger $space-medium $space-large;
   width: 100%;
   box-sizing: border-box;
-  position: relative;
 
   .logo {
     width: 64px;
     height: 64px;
   }
 
-  .close {
-    position: absolute;
-    right: $space-medium;
-    top: $space-medium;
-    display: none;
-  }
   .title {
     color: $color-heading;
     font-size: $font-size-mega;
