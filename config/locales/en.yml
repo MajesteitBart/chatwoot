@@ -51,6 +51,6 @@ en:
         assigned: "Toegewezen aan %{assignee_name} door %{user_name}"
         removed: "Toewijzing ongedaan gemaakt door %{user_name}"
     templates:
-      typical_reply_message_body: "%{account_name} reageert vaak snel, maar soms duurt het iets langer"
-      ways_to_reach_you_message_body: "Geef het team een mogelijkheid je te bereiken."
-      email_input_box_message_body: "Stel je vraag hier en ontvang reactie via e-mail"
+      typical_reply_message_body: "%{account_name} reageert meestal binnen een paar minuten."
+      ways_to_reach_you_message_body: "Geef het team een mogelijkheid je te bereiken, zodat je niet hoeft te wachten."
+      email_input_box_message_body: "Laat voor de zekerheid je e-mailadres achter:"
