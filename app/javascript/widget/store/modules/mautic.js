@@ -21,7 +21,6 @@ const actions = {
           email: email 
         }
       );
-    } catch (error) {
-      // Ignore error
-    },
-};
+    } catch (error) {}
+  },
+};  
