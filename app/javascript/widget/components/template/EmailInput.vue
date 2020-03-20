@@ -8,7 +8,7 @@
       <input
         v-model.trim="email"
         class="form-input small"
-        placeholder="Uw e-mailadres"
+        placeholder="naam@bedrijf.nl"
         :class="{ error: $v.email.$error }"
         @input="$v.email.$touch"
       />
