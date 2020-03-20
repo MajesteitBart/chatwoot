@@ -1,15 +1,15 @@
 // Font sizes
-$font-size-nano: 0.8rem;
-$font-size-micro: 1.0rem;
-$font-size-mini: 1.2rem;
-$font-size-small: 1.4rem;
-$font-size-default: 1.6rem;
-$font-size-medium: 1.8rem;
-$font-size-large: 2.2rem;
-$font-size-big: 2.4rem;
-$font-size-bigger: 3.0rem;
-$font-size-mega: 3.4rem;
-$font-size-giga: 4.0rem;
+$font-size-nano: 0.7rem;
+$font-size-micro: 0.9rem;
+$font-size-mini: 1.0rem;
+$font-size-small: 1.2rem;
+$font-size-default: 1.4rem;
+$font-size-medium: 1.6rem;
+$font-size-large: 2.0rem;
+$font-size-big: 2.2rem;
+$font-size-bigger: 2.8rem;
+$font-size-mega: 3.0rem;
+$font-size-giga: 3.6rem;
 
 // spaces
 $zero: 0;
@@ -41,28 +41,28 @@ $header-height: 5.6rem;
 $woot-logo-padding: $space-large $space-two;
 
 // Colors
-$color-woot: #1f93ff;
-$color-gray: #6e6f73;
-$color-light-gray: #999a9b;
+$color-woot: #00ff66;
+$color-gray: #8492a6;
+$color-light-gray: #5a5a5a;
 $color-border: #e0e6ed;
-$color-border-light: #f0f4f5;
-$color-background: #eff2f7;
-$color-background-light: #f9fafc;
-$color-white: #fff;
-$color-body: #3c4858;
-$color-heading: #1f2d3d;
-$color-extra-light-blue: #f5f7f9;
+$color-border-light: #fcfcfc;
+$color-background: #f9f9f9;
+$color-background-light: #f0f0f0;
+$color-white: #f0f0f0;
+$color-body: #222222;
+$color-heading: #222222;
+$color-extra-light-blue: #c6c6c6;
 
 $primary-color: $color-woot;
-$secondary-color: #ff5216;
-$success-color: #13ce66;
-$warning-color: #ffc82c;
-$alert-color: #ff4949;
+$secondary-color: #ff6600;
+$success-color: #19ff75;
+$warning-color: #ffcc00;
+$alert-color: #ff0000;
 
 // Color-palettes
 
-$color-primary-light: #c7e3ff;
-$color-primary-dark: darken($color-woot, 20%);
+$color-primary-light: #e4ede7;
+$color-primary-dark: #222222;
 
 // Thumbnail
 $thumbnail-radius: 4rem;

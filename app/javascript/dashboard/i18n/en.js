@@ -1,7 +1,8 @@
 import en from './locale/en';
+import nl from './locale/nl';
 
 export default {
-  ...en,
+  ...nl,
   APP_GLOBAL: {
     TRIAL_MESSAGE: 'days trial remaining.',
     TRAIL_BUTTON: 'Buy Now',
