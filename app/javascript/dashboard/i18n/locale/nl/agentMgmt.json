@@ -1,9 +1,9 @@
 {
   "AGENT_MGMT": {
-    "HEADER": "Agenten",
-    "HEADER_BTN_TXT": "Agent toevoegen",
-    "LOADING": "Agentenlijst ophalen",
-    "SIDEBAR_TXT": "<p> <b> Agenten </b> </p> <p> Een <b> agent </b> is lid van uw klantenserviceteam. </p> <p> Agenten zullen berichten van uw gebruikers kunnen bekijken en beantwoorden. De lijst toont alle agenten die momenteel in uw account zijn. </p> <p> Klik op <b> Agent toevoegen </b> om een ​​nieuwe agent toe te voegen. De agent die u toevoegt, wordt een e-mail ontvangen met een bevestigingslink om hun account te activeren, waarna ze toegang hebben tot Convert Chat en kunnen reageren op berichten. </p> <p> Toegang tot de functies van Convert Chat zijn gebaseerd op de volgende rollen. </p> <p> <b> Agent </b> - Agenten met deze rol hebben alleen toegang tot inboxen, rapporten en gesprekken. Ze kunnen gesprekken aan andere agenten of zichzelf toewijzen en gesprekken oplossen. </p> <p> <b> Beheerder </b> - Beheerder zal toegang hebben tot alle Convert Chat-functies die zijn ingeschakeld voor uw account, inclusief instellingen en facturering, samen met alle normale privileges van agenten. </p> ",
+    "HEADER": "Agents",
+    "HEADER_BTN_TXT": "Add Agent",
+    "LOADING": "Fetching Agent List",
+    "SIDEBAR_TXT": "<p><b>Agents</b></p> <p> An <b>Agent</b> is a member of your Customer Support team. </p><p> Agents will be able to view and reply to messages from your users. The list shows all agents currently in your account. </p><p> Click on <b>Add Agent</b> to add a new agent. Agent you add will receive an email with a confirmation link to activate their account, after which they can access Convert Chat and respond to messages. </p><p> Access to Convert Chat's features are based on following roles. </p><p> <b>Agent</b> - Agents with this role can only access inboxes, reports and conversations. They can assign conversations to other agents or themselves and resolve conversations.</p><p> <b>Administrator</b> - Administrator will have access to all Convert Chat features enabled for your account, including settings and billing, along with all of a normal agents' privileges.</p>",
     "AGENT_TYPES": [
       {
         "name": "administrator",
@@ -14,87 +14,87 @@
       }
     ],
     "LIST": {
-      "404": "Er zijn geen agenten aan dit account gekoppeld",
-      "TITLE": "Agenten in uw team beheren",
-      "DESC": "U kunt agenten aan uw team toevoegen/verwijderen.",
+      "404": "There are no agents associated to this account",
+      "TITLE": "Manage agents in your team",
+      "DESC": "You can add/remove agents to/in your team.",
       "NAME": "Name",
       "EMAIL": "EMAIL",
       "STATUS": "Status",
-      "ACTIONS": "Acties",
-      "VERIFIED": "Geverifieerd",
-      "VERIFICATION_PENDING": "Verificatie in behandeling"
+      "ACTIONS": "Actions",
+      "VERIFIED": "Verified",
+      "VERIFICATION_PENDING": "Verification Pending"
     },
     "ADD": {
-      "TITLE": "Voeg agent toe aan uw team",
-      "DESC": "U kunt mensen toevoegen die ondersteuning voor uw inbox kunnen verwerken",
+      "TITLE": "Add agent to your team",
+      "DESC": "You can add people who will be able to handle support for your inboxes.",
       "FORM": {
         "NAME" : {
-          "LABEL": "Agentnaam",
-          "PLACEHOLDER": "Voer een naam van de agent in"
+          "LABEL": "Agent Name",
+          "PLACEHOLDER": "Please enter a name of the agent"
         },
         "AGENT_TYPE" : {
-          "LABEL": "Agenttype",
-          "PLACEHOLDER": "Selecteer een type",
-          "ERROR": "Agenttype is vereist"
+          "LABEL": "Agent Type",
+          "PLACEHOLDER": "Please select a type",
+          "ERROR": "Agent type is required"
         },
         "EMAIL" : {
-          "LABEL": "E-mailadres",
-          "PLACEHOLDER": "Voer een e-mailadres van de agent in"
+          "LABEL": "Email Address",
+          "PLACEHOLDER": "Please enter an email address of the agent"
         },
-        "SUBMIT": "Agent toevoegen"
+        "SUBMIT": "Add Agent"
       },
       "API": {
-        "SUCCESS_MESSAGE": "Agent succesvol toegevoegd",
-        "EXIST_MESSAGE": "E-mailadres van agent al in gebruik, probeer een ander e-mailadres",
-        "ERROR_MESSAGE": "Kan geen verbinding maken met de server, probeer het later opnieuw"
+        "SUCCESS_MESSAGE": "Agent added successfully",
+        "EXIST_MESSAGE": "Agent email already in use, Please try another email address",
+        "ERROR_MESSAGE": "Could not connect to Woot Server, Please try again later"
       }
     },
     "DELETE": {
-      "BUTTON_TEXT": "Verwijderen",
+      "BUTTON_TEXT": "Delete",
       "API": {
-        "SUCCESS_MESSAGE": "Agent succesvol verwijderd",
-        "ERROR_MESSAGE": "Kan geen verbinding maken met Woot Server, probeer het later opnieuw"
+        "SUCCESS_MESSAGE": "Agent deleted successfully",
+        "ERROR_MESSAGE": "Could not connect to Woot Server, Please try again later"
       },
       "CONFIRM": {
-        "TITLE": "Bevestig verwijdering",
-        "MESSAGE": "Weet u zeker dat u wilt verwijderen ",
-        "YES": "Ja, verwijderen ",
-        "NO": "Nee, behouden "
+        "TITLE": "Confirm Deletion",
+        "MESSAGE": "Are you sure to delete ",
+        "YES": "Yes, Delete ",
+        "NO": "No, Keep it "
       }
     },
     "EDIT": {
-      "TITLE": "Agent bewerken",
+      "TITLE": "Edit agent",
       "FORM": {
         "NAME" : {
-          "LABEL": "Agentnaam",
-          "PLACEHOLDER": "Voer een naam van de agent in"
+          "LABEL": "Agent Name",
+          "PLACEHOLDER": "Please enter a name of the agent"
         },
         "AGENT_TYPE" : {
-          "LABEL": "Agenttype",
-          "PLACEHOLDER": "Selecteer een type",
-          "ERROR": "Agenttype is vereist"
+          "LABEL": "Agent Type",
+          "PLACEHOLDER": "Please select a type",
+          "ERROR": "Agent type is required"
         },
         "EMAIL" : {
-          "LABEL": "E-mailadres",
-          "PLACEHOLDER": "Voer een e-mailadres van de agent in"
+          "LABEL": "Email Address",
+          "PLACEHOLDER": "Please enter an email address of the agent"
         },
-        "SUBMIT": "Agent bewerken"
+        "SUBMIT": "Edit Agent"
       },
-      "BUTTON_TEXT": "Bewerken",
-      "CANCEL_BUTTON_TEXT": "Annuleren",
+      "BUTTON_TEXT": "Edit",
+      "CANCEL_BUTTON_TEXT": "Cancel",
       "API": {
-        "SUCCESS_MESSAGE": "Agent succesvol geüpdatet",
-        "ERROR_MESSAGE": "Kan geen verbinding maken met de server, probeer het later opnieuw"
+        "SUCCESS_MESSAGE": "Agent updated successfully",
+        "ERROR_MESSAGE": "Could not connect to Woot Server, Please try again later"
       },
       "PASSWORD_RESET": {
-        "ADMIN_RESET_BUTTON": "Reset wachtwoord",
-        "ADMIN_SUCCESS_MESSAGE": "Er is een e-mail met instructies voor het opnieuw instellen van het wachtwoord naar de agent gestuurd",
-        "SUCCESS_MESSAGE": "Wachtwoord van agent succesvol gereset",
-        "ERROR_MESSAGE": "Kan geen verbinding maken met Woot Server, probeer het later opnieuw"
+        "ADMIN_RESET_BUTTON": "Reset Password",
+        "ADMIN_SUCCESS_MESSAGE": "An email with reset password instructions has been sent to the agent",
+        "SUCCESS_MESSAGE": "Agent password reset successfully",
+        "ERROR_MESSAGE": "Could not connect to Woot Server, Please try again later"
       }
     },
     "SEARCH": {
-      "NO_RESULTS": "Geen agenten gevonden."
+      "NO_RESULTS": "No agents found."
     }
   }
 }
