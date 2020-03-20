@@ -28,12 +28,12 @@ export default {
   props: {
     introHeading: {
       type: String,
-      default: 'Hi there ! 🙌🏼',
+      default: 'Welkom 😃',
     },
     introBody: {
       type: String,
       default:
-        'We make it simple to connect with us. Ask us anything, or share your feedback.',
+        'We horen graag van je. Vragen, feedback of tips? Laat het ons weten!',
     },
   },
   methods: {
