@@ -75,7 +75,7 @@ export default {
         email: this.email,
         messageId: this.messageId,
       }),
-      this.mt('send', 'pageview', {
+       mt('send', 'pageview', {
       	email: this.email});
     },
   },
