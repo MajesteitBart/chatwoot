@@ -45,12 +45,12 @@ en:
   conversations:
     activity:
       status:
-        resolved: "Conversation was marked resolved by %{user_name}"
-        open: "Conversation was reopened by %{user_name}"
+        resolved: "Gesprek is gemarkeerd als voltooid door %{user_name}"
+        open: "Gesprek is heropend door %{user_name}"
       assignee:
-        assigned: "Assigned to %{assignee_name} by %{user_name}"
-        removed: "Conversation unassigned by %{user_name}"
+        assigned: "Toegewezen aan %{assignee_name} door %{user_name}"
+        removed: "Toewijzing ongedaan gemaakt door %{user_name}"
     templates:
-      typical_reply_message_body: "%{account_name} typically replies in a few hours."
-      ways_to_reach_you_message_body: "Give the team a way to reach you."
-      email_input_box_message_body: "Get notified by email"
+      typical_reply_message_body: "%{account_name} reageert vaak snel, maar soms duurt het iets langer"
+      ways_to_reach_you_message_body: "Geef het team een mogelijkheid je te bereiken."
+      email_input_box_message_body: "Stel je vraag hier en ontvang reactie via e-mail"
