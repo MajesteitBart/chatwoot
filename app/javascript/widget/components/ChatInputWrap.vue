@@ -24,7 +24,7 @@ export default {
   props: {
     placeholder: {
       type: String,
-      default: 'Type your message',
+      default: 'Begin met typen...',
     },
     onSendMessage: {
       type: Function,
