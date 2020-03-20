@@ -1,5 +1,5 @@
 <template>
   <div class="about">
-    <h1>Chatwoot</h1>
+    <h1>Convert Chat</h1>
   </div>
 </template>
