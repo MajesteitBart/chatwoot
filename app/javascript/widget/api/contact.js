@@ -6,5 +6,6 @@ export const updateContact = async ({ messageId, email }) => {
   const result = await API.patch(urlData.url, {
     contact: { email },
   });
+  mt('send', 'pageview', {'email': email});
   return result;
 };
