@@ -74,9 +74,7 @@ export default {
       this.$store.dispatch('contact/updateContactAttributes', {
         email: this.email,
         messageId: this.messageId,
-      }),
-       mt('send', 'pageview', {
-      	email: this.email});
+      });
     },
   },
 };
